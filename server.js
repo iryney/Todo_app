@@ -19,7 +19,7 @@ app.get('#', function(req,res){
 });
 
 app.listen(8080);
-console.log("App listening on port 8080, bitch!");
+console.log("App listening on port 8080");
 
 
 var Todo = mongoose.model('Todo', {
